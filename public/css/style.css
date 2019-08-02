@@ -1,0 +1,35 @@
+body { font-size: 16px;font-size: 2rem;font-family: Helvetica;font-weight: 500;height: 100%;margin: 0;color: #FFF;}
+body.caire {background: #FF5D0C; color: #FFF;}
+body.rio {background: #FFF; color: #FF5D0C;}
+body.black {background: #000;}
+header { margin-top: 5px; position: absolute;display: flex;flex-direction: column; text-align: center; }
+header button { color: inherit;text-decoration: none; font-size: 1rem;}
+
+header .fa-circle, header a { color: #000;}
+header button:hover .fa-random { color: #FF5D0C;}
+
+#app { width: 780px; max-width: 100%; margin:auto; padding-top: 60px;}
+#film {  margin-top: 20px;}
+.blockquote {margin-bottom: 1rem;font-size: 2.25rem;min-height: 100px;text-shadow: 2px 2px #000;}
+.blockquote-footer::before {content: "\2014 \00A0";}
+.blockquote-footer {display: block;font-size: 80%;color: #D9E8F5;text-align: right;}
+#img-container { position: absolute; right: 0; bottom: 0;}
+#img-container h1 { margin-bottom: 0;}
+#img-container img {color: #FF5D0C; display : none;}
+.rio #img-container img {color: #FFF;}
+#content { z-index: 1; position: relative;}
+.bulle { width: 200px; height: 200px; background-color: #F68121; border-radius: 100%; position: absolute; top: 50px;opacity: 0.6;}
+.rio .bulle { background-color:#A2DEF8;}
+.rio .bulle, .caire .bulle { opacity: 1}
+
+.main-wrapper { min-height: 100vh;}
+button, input[type="submit"], input[type="reset"] {
+    background: none !important;
+    color: inherit;
+    border: none;
+    padding: 0! important;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit !important;
+}
+

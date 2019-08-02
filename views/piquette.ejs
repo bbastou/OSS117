@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <% include templates/meta.ejs%>
+  </head>
+  <body class="black">
+    <div class="main-wrapper" style="background : url('/images/Jokari/piquette-Jack-<%= imageNumber %>.png'); background-size: cover; background-repeat: no-repeat; background-position: top center; background-attachment: fixed;">
+        <main id="app" class="app" role="main">
+            <section id="content">
+                <blockquote class="blockquote">
+                <p id="replique" class="mb-0">23 à 0 ! C’est la piquette <%= nom_user %> ! Tu sais pas jouer <%= nom_user %> ! T’es mauvais !</p>
+                <footer class="blockquote-footer"><cite id="film">OSS 117 : Le Caire nid d’espions</cite></footer>
+                </blockquote>
+            </section>
+            <div class="bulle"></div>
+        </main>
+        <footer id="img-container">
+        <h1>
+            <img class="img-caire" src="/images/OSS117-Le-Caire-nid-d-espions-Repliques-Cultes.jpg" alt="OSS 117 - Le Caire nid d'espions - les répliques cultes" />
+        </h1>
+        </footer>
+    </div>
+    <% include templates/footer.ejs%>
+  </body>
+</html>
+

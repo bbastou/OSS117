@@ -1,0 +1,10 @@
+.DS_STORE
+bin/*
+node_modules/*
+typings/*
+typings.json
+.vscode/
+resource.json
+bdd.json
+/*.env
+config.js

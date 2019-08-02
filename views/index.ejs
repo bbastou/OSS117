@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <% include templates/meta.ejs%>
+  </head>
+  <body>
+    <header>
+        <button type="button" onclick="javascript:getRepliqueRandom();">
+            <span class="fa-stack">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-random fa-stack-1x fa-inverse"></i>
+            </span>
+        </button>
+        <a href="https://github.com/bbastou/OSS117">
+            <i class="fa fa-github"></i>
+        </a>
+    </header>
+    <div class="main-wrapper">
+        <main id="app" class="app" role="main">
+            <section id="content">
+                <blockquote class="blockquote">
+                <p id="replique" class="mb-0"></p>
+                <footer class="blockquote-footer"><cite id="film"></cite></footer>
+                </blockquote>
+            </section>
+            <div class="bulle"></div>
+        </main>
+        <footer id="img-container">
+            <h1>
+                <img class="img-caire" src="/images/OSS117-Le-Caire-nid-d-espions-Repliques-Cultes.jpg" alt="OSS 117 - Le Caire nid d'espions - les répliques cultes" />
+                <img class="img-rio" src="/images/OSS117-Rio-ne-repond-plus-Repliques-Cultes.jpg" alt="OSS 117 - Rio ne répond plus - les répliques cultes" />
+            </h1>
+        </footer>
+    </div>
+    <% include templates/footer.ejs%>
+    <script type="text/javascript">
+    $(function () {
+        getRepliqueRandom();
+    });
+    </script>
+    
+  </body>
+</html>
+
