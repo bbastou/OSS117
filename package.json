@@ -15,7 +15,7 @@
     "express-session": "^1.14.2",
     "flash": "^1.1.0",
     "fontawesome": "^4.7.2",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "mongoose": "^4.6.8",
     "morgan": "~1.9.1",
     "serve-favicon": "~2.3.0"
